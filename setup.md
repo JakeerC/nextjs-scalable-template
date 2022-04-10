@@ -15,3 +15,19 @@ In order to set a standard that will be used by all contributors to the project 
 
 - eslint - For best practices on coding standards
 - prettier - For automatic formatting of code files
+  - add prettier lib
+
+## Git Hooks
+
+We are going to implement a tool called Husky
+
+Husky is a tool for running scripts at different stages of the git process, for example add, commit, push, etc.
+
+All the git-hooks reside in .hooks directory
+
+- Add husky lib
+- Add pre-commit hook
+- Add pre-push hook
+- Add commit-msg hook using commit-lint lib (need to add it's own config file ,couple of libs)
+  - @commitlint/cli
+  - @commitlint/config-conventional
