@@ -1,7 +1,16 @@
 {
   "name": "nextjs-template",
+  "author": {
+    "name": "Chilakala Jakeer"
+  },
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/JakeerC/nextjs-scalable-template",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
