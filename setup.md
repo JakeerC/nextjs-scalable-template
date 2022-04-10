@@ -31,3 +31,19 @@ All the git-hooks reside in .hooks directory
 - Add commit-msg hook using commit-lint lib (need to add it's own config file ,couple of libs)
   - @commitlint/cli
   - @commitlint/config-conventional
+
+## VS Code Configuration
+
+setup launch.json , settings.json to make project consistent among team irrespective of their custom vscode settings
+
+## Debugging
+
+set up a convenient environment for debugging our application in case we run into any issues during development.
+
+- Inside of your .vscode directory create a launch.json
+
+In addition to this, or if you are not using VS Code, we can also set up some helpful debugging scripts in your project.
+
+- Install the cross-env which will; be necessary to set environment variables if you have teammates working on different environments (Windows, Linux, Mac, etc).
+
+[Reference & credits](https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7)
