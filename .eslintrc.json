@@ -1,7 +1,21 @@
 {
   "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
   "globals": { "React": "readonly" },
+  "ignorePatterns": [],
   "rules": {
-    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^-" }]
+    /* "no-unused-vars": [2, { "args": "after-used", "argsIgnorePattern": "^-" }] */
+    "no-unused-vars": "error",
+    "indent": ["error", 2],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-trailing-spaces": [
+      "error",
+      { "skipBlankLines": false, "ignoreComments": false }
+    ],
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-spacing": "warn",
+    "arrow-body-style": "error",
+    "no-duplicate-imports": "error",
+    "no-multiple-empty-lines": "warn",
+    "comma-spacing": ["error", { "before": false, "after": true }]
   }
 }
