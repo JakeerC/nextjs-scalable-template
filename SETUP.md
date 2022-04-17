@@ -47,3 +47,8 @@ In addition to this, or if you are not using VS Code, we can also set up some he
 - Install the cross-env which will; be necessary to set environment variables if you have teammates working on different environments (Windows, Linux, Mac, etc).
 
 [Reference & credits](https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7)
+
+## Storybook - Documentation
+
+Add storybook `npx storybook init`
+change config in .storybook/main(add staticDir) .storybook/preview
