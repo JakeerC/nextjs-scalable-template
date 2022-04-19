@@ -1,15 +1,8 @@
 const base = {
-  text: 'Base sample  mock text',
-};
-const primary = {
-  text: 'Primary sample mock text',
-};
-const secondary = {
-  text: 'Secondary sample mock text',
+  children: 'sample default text',
+  className: '',
 };
 
 export const mockPaperProps = {
   base,
-  primary,
-  secondary,
 };

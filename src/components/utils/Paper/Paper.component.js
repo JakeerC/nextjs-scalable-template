@@ -14,6 +14,7 @@ Paper.propTypes = {
 };
 Paper.defaultProps = {
   children: 'sample default text',
+  className: '',
 };
 
 export default Paper;
