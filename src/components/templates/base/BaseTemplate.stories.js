@@ -1,4 +1,4 @@
-import BaseTemplate from './BaseTemplate';
+import BaseTemplate from './BaseTemplate.component';
 import { mockBaseTemplateProps } from './BaseTemplate.mock';
 const metaData = {
   title: 'templates/BaseTemplate',
