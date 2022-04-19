@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Paper = ({ children, className }) => (
   <div
-    className={`bg-slate-100 p-4 m-4 rounded-md shadow-md text-slate-900 dark:bg-slate-900 dark:text-slate-200  ${className}`}
+    className={`bg-slate-100 p-4  rounded-md shadow-md text-slate-900 dark:bg-slate-900 dark:text-slate-200  ${className}`}
   >
     {children}
   </div>
