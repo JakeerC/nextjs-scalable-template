@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
+import Paper from '../components/utils/Paper';
 
 export default function Home() {
   return (
@@ -11,11 +12,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="flex justify-center text-gray-700 text-4xl">
-          Hello
-          <span className="text-green-900 text-4xl px-2 "> Dev</span>, I'm
-          styled using tailwindcss
-        </div>
+        <Paper className="m-0 mb-4 rounded-none">
+          <div className="flex justify-center  text-4xl">
+            Hello
+            <span className="text-green-900 text-4xl px-2"> Dev</span>, I'm
+            styled using tailwindcss
+          </div>
+        </Paper>
       </main>
     </div>
   );

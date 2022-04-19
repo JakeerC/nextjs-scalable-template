@@ -30,6 +30,8 @@
     "arrow-body-style": "error",
     "no-duplicate-imports": "error",
     "no-multiple-empty-lines": "warn",
-    "comma-spacing": ["error", { "before": false, "after": true }]
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    //for prop-types
+    "react/prop-types": "error"
   }
 }
