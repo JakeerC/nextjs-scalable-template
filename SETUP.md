@@ -1,5 +1,11 @@
 # Steps follwed to setup this template
 
+
+> [!important]
+>  This repo is not maintained ⚠️
+> 
+>  Use for this repo test purposes only
+
 ## Engine Locking
 
 We would like for all developers working on this project to use the same Node engine and package manager we are using. To do that we create two new files:
